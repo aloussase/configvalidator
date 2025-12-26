@@ -1,0 +1,6 @@
+rules:
+  default:
+    - name: "no-trailing-whitespace"
+    - name: "no-leading-whitespace"
+  go_points_checkout_url:
+    - name: "valid-url"
