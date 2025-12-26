@@ -16,6 +16,8 @@ repositories {
 
 dependencies {
     implementation("org.yaml:snakeyaml:2.2")
+    implementation("com.squareup.okhttp3:okhttp:5.3.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0-rc1")
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
