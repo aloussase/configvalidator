@@ -3,6 +3,13 @@
 A Java library that you can include in your IDE or tooling plugins to validate your
 configuration variables.
 
+## Documentation
+
+You can read the source code and Javadocs.
+
+For a list of available sources, parsers, reporters and rules; please consult
+the [wiki](https://github.com/aloussase/configvalidator/wiki).
+
 ## Usage
 
 The library is highly configurable to:
@@ -32,6 +39,10 @@ how to implement these.
 ## Architecture
 
 TODO
+
+## Contributing
+
+New ideas for rules, configuration sources, parsers; or anything else are welcome!
 
 ## License
 
