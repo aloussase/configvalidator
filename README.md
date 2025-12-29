@@ -38,7 +38,7 @@ how to implement these.
 
 ## Architecture
 
-TODO
+![UML diagram](./assets/uml-diagram.png)
 
 ## Contributing
 
