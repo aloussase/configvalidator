@@ -4,7 +4,6 @@ plugins {
 }
 
 repositories {
-    // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
 
@@ -26,9 +25,10 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
+val version = "0.2.0"
 
 mavenPublishing {
-    coordinates("io.github.aloussase", "configvalidator", "0.1.0")
+    coordinates("io.github.aloussase", "configvalidator", version)
     pom {
         name.set("Config Validator")
         description.set("Rule engine to validate configuration coming from different sources.")
