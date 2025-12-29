@@ -26,6 +26,17 @@ public class AndesConfigurationVariableSource implements ConfigurationVariableSo
 
     private final ObjectMapper objectMapper;
 
+    public AndesConfigurationVariableSource(String apiUrl, String bluePrint, String authToken, String deploymentId) {
+        this(
+                new OkHttpClient.Builder().build(),
+                apiUrl,
+                bluePrint,
+                authToken,
+                deploymentId,
+                new ObjectMapper()
+        );
+    }
+
     public AndesConfigurationVariableSource(OkHttpClient httpClient, String apiUrl, String bluePrint, String authToken, String deploymentId, ObjectMapper objectMapper) {
         this.httpClient = httpClient;
         this.apiUrl = apiUrl;
