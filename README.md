@@ -12,6 +12,14 @@ the [wiki](https://github.com/aloussase/configvalidator/wiki).
 
 ## Usage
 
+Add the library dependency:
+
+```kotlin
+dependencies {
+    implementation("io.github.aloussase:configvalidator:0.2.0")
+}
+```
+
 The library is highly configurable to:
 
 - **Pull configuration variables** from different sources
